@@ -1,0 +1,28 @@
+{
+  "name": "real-time-chat-application",
+  "version": "1.0.0",
+  "description": "Real-time chat application that allows multiple users to join chat rooms and communicate with each other. The application will be built using Node.js, Express.js, and Socket.IO for real-time communication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadatkarrohit/Real-Time-Chat-Application.git"
+  },
+  "author": "Rohit Khadatkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khadatkarrohit/Real-Time-Chat-Application/issues"
+  },
+  "homepage": "https://github.com/khadatkarrohit/Real-Time-Chat-Application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
